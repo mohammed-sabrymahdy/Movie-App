@@ -1,12 +1,38 @@
-# React + Vite
+# Movie App 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+تطبيق React + Vite لعرض أفلام من TMDB مع:
+- بحث احترافي (Autocomplete + Debounce)
+- Pagination بالأرقام مع "...".
+- تفاصيل كل فيلم + SEO ديناميكي
+- تجربة مستخدم ممتازة وResponsive
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  عرض المشروع
 
-## Expanding the ESLint configuration
+![Screenshot 1](https://raw.githubusercontent.com/username/repo/main/screenshots/screen1.png)
+![Screenshot 2](https://raw.githubusercontent.com/username/repo/main/screenshots/screen2.png)
+![Screenshot 3](https://raw.githubusercontent.com/username/repo/main/screenshots/screen3.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+---
+
+##  المميزات
+
+- واجهة مستخدم RTL، تصميم جذاب وسهل الاستخدام
+- تحسين أداء (lazy loading، caching داخلي، skeletons)
+- بحث سريع واقتراحات بالكيبورد
+- Paginition ذكي
+- SEO via `react-helmet-async`+Title dynamic
+- متوافق مع Vercel للنشر السريع
+- قاعدة كود نظيفة ومنظمة
+
+---
+
+##  خطوات التشغيل محليًا
+
+1. انسخ المستودع:
+   ```bash
+   git clone https://github.com/username/repo.git
+   cd repo
